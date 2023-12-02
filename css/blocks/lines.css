@@ -1,0 +1,7 @@
+.line {
+  display: none;
+  width: 100%;
+  max-width: 510px;
+  height: 1px;
+  background: #c3d1c6;
+}

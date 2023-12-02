@@ -1,0 +1,27 @@
+@media (max-width: 768px) {
+  .nav__item {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 630px) {
+  .logo {
+    justify-content: center;
+  }
+
+  .nav-holder {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nav__list {
+    justify-content: center;
+    margin-top: 17px;
+  }
+
+  .line {
+    display: block;
+    margin-top: 17px;
+  }
+}
