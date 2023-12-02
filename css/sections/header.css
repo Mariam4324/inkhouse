@@ -48,18 +48,21 @@
   font-weight: 500;
   line-height: 150%;
   display: -webkit-box;
-  -webkit-line-clamp: 3;
+  -webkit-line-clamp: 5;
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
 .header-right__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-top: 60px;
   color: #598d66;
   border: 1px solid #598d66;
   background: #f4f6f5;
-  width: 227px;
+  max-width: 227px;
   transition: 0.5s all;
 }
 
