@@ -121,7 +121,9 @@
   align-items: center;
   border: 1px solid #598d66;
   color: #598d66;
+  width: 100%;
   max-width: 310px;
+  background: #E1EDE6;
   transition: 0.5s all;
 }
 
