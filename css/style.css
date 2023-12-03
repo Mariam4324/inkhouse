@@ -1,6 +1,7 @@
 @import url(./config.css);
 @import url(./fonts/fonts.css);
 @import url(./layout.css);
+@import url(./vars.css);
 @import url(./sections/navigation.css);
 @import url(./sections/header.css);
 @import url(./sections/reproduction.css);

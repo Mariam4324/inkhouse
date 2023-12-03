@@ -54,6 +54,12 @@
 }
 
 @media (max-width: 720px) {
+
+  .container {
+    padding: 0;
+    box-sizing: border-box;
+  }
+
   .logo {
     justify-content: center;
   }

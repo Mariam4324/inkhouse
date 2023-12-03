@@ -9,3 +9,22 @@
 .repro__slider::-webkit-scrollbar {
   display: none;
 }
+
+.repro__card:first-child {
+  margin-left: calc((100vw - var(--responsive-container)) / 2);
+}
+
+.repro__card:last-child {
+  margin-right: calc((100vw - var(--responsive-container)) / 2);
+}
+
+@media (max-width: 1120px) {
+  .repro__card:first-child {
+  margin-left: var(--responsive-padding);
+}
+
+.repro__card:last-child {
+  margin-right: var(--responsive-padding);
+}
+}
+
