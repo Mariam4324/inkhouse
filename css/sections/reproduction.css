@@ -1,3 +1,45 @@
-.reproduction {
-  height: 1564px;
+.repro {
+  margin-top: 70px;
+  min-height: 1564px;
+}
+
+.repro__holder {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.repro__title {
+  color: #2c2d35;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 110%;
+}
+
+.repro__wrapper {
+  display: flex;
+  gap: 32px;
+}
+
+.repro__switch {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 43px;
+  max-width: 126px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  background: #d4e8d9;
+  color: #2c2d35;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: normal;
+  cursor: pointer;
+  transition: 0.5s all;
+  border: none;
+}
+
+.repro__switch:hover {
+  color: #f4f6f5;
+  background: #376b44;
 }

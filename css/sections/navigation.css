@@ -4,7 +4,7 @@
   background: #e1ede6;
 }
 
-.nav-holder {
+.nav__holder {
   display: flex;
   justify-content: space-between;
   align-items: center;
