@@ -41,5 +41,91 @@
 
 .repro__switch:hover {
   color: #f4f6f5;
-  background: #376b44;
+  background: #598d66;
+}
+
+.repro__card {
+  padding: 20px 20px 30px;
+  min-width: 350px;
+  height: 730px;
+  background: #e1ede6;
+}
+
+.repro__img {
+  display: block;
+  width: 100%;
+  max-width: 310px;
+  height: 422px;
+  object-fit: cover;
+  object-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.repro__author {
+  margin-top: 20px;
+  color: #86928b;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: normal;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.repro__name {
+  margin-top: 10px;
+  color: #2c2d35;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: normal;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.repro__material {
+  margin-top: 8px;
+  color: #2c2d35;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: normal;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.repro__price {
+  margin-top: 30px;
+  color: #598d66;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: normal;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.repro__btn {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #598d66;
+  color: #598d66;
+  max-width: 310px;
+  transition: 0.5s all;
+}
+
+.repro__btn:hover {
+  background: #598d66;
+  color: #f4f6f5;
 }
